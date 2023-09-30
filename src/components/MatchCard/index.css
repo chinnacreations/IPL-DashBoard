@@ -1,0 +1,51 @@
+.match-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  width: 50%;
+  border-radius: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.competing-team-logo {
+  max-width: 60px;
+  height: 50px;
+}
+.team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  flex-grow: 1;
+}
+.result {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+.match-status {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+.match-won {
+  color: #18ed66;
+}
+.match-lost {
+  color: #e31a1e;
+}
+
+@media screen and (min-width: 767px) {
+  .match-item {
+    width: 30%;
+    padding: 22px;
+    margin-bottom: 18px;
+  }
+  .team-logo {
+    max-width: 1px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,29 @@
+.team-card-con {
+  list-style-type: none;
+  width: 50%;
+}
+.link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 85%;
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  padding-left: 12px;
+  padding-top: 7px;
+  padding-right: 12px;
+  padding-bottom: 7px;
+  text-decoration: none;
+}
+
+.match-team-logo {
+  height: 50px;
+  width: 50px;
+}
+.team-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  margin-left: 12px;
+  text-align: center;
+}
